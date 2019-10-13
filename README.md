@@ -4,6 +4,7 @@ Instruçes para rodar o teste.
 **No banco de dados rodar:**
 
 CREATE SCHEMA `estadao` DEFAULT CHARACTER SET utf8 ;
+
 CREATE TABLE `estadao`.`carros` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,`marca` VARCHAR(100) NOT NULL,`modelo` VARCHAR(100) NOT NULL,`ano` INT NOT NULL,`created_at` TIMESTAMP NOT NULL,PRIMARY KEY (`id`));
 
 **Na raiz do projeto digitar o comando:**
