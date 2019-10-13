@@ -1,13 +1,20 @@
-Teste para desenvolvedor do Estadão.
-==============================
+Instruçes para rodar o teste.
+=
 
-Olá candidato,
+No banco de dados rodar:
+-
+CREATE SCHEMA `estadao` DEFAULT CHARACTER SET utf8 ;
+CREATE TABLE `estadao`.`carros` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,`marca` VARCHAR(100) NOT NULL,`modelo` VARCHAR(100) NOT NULL,`ano` INT NOT NULL,`created_at` TIMESTAMP NOT NULL,PRIMARY KEY (`id`));
 
-Esse teste consiste em 2 etapas para avaliarmos seu conhecimento em PHP e Front-End (HTML5, CSS e JavaScript)
+Na raiz do projeto digitar o comando: 
+-
+php -S localhost:8000 -t public
 
-Para realizar o teste, você deve dar um fork neste repositório e depois clona-lo na pasta <document_root> da máquina que está realizando o teste.
+No navegador acessar: 
+-
+http://localhost:8000/view.php
 
-Crie um branch com seu nome, e quando finalizar todo o desenvolvimento, você deverá enviar um pull-request com sua versão.
+
 
 O teste
 --------
