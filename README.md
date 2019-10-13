@@ -1,4 +1,4 @@
-Teste para desenvolvedor do Estadão
+Teste para desenvolvedor do Estadão.
 ==============================
 
 Olá candidato,
